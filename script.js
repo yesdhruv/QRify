@@ -3,7 +3,7 @@ qrInput = wrapper.querySelector(".form input"),
 generateBtn = wrapper.querySelector(".form button"),
 qrImg = wrapper.querySelector(".qr-code img");
 let preValue;
-// Add audio of your choice 
+// Adding audio 
 const audio = document.getElementById("audio");
 generateBtn.addEventListener("click", () => {
     let qrValue = qrInput.value.trim();
